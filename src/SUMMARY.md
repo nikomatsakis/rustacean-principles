@@ -5,6 +5,7 @@
 - [✨ Bring joy to the user](./bring_joy.md)
 - [👋 Show up](./show_up.md)
 - [🔭 Recognize others' knowledge](./recognize_others.md)
+* [🔁 Start somewhere](./start_somewhere.md)
 - [✅ Follow through](./follow_through.md)
 - [🤝 Pay it forward](./pay_it_forward.md)
 - [🎁 Trust and delegate](./trust_and_delegate.md)
