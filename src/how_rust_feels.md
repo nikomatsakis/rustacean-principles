@@ -14,13 +14,13 @@ Rust code tends to perform "quite well" right out of the box. You don't have to 
 
 Rust's great strength is taking formerly complex, wizard-like things and making them easy to do. In the case of async, that means letting people use the latest and greatest stuff, like io-uring. It also means enabling parallelism and complex scheduling patterns very easily.
 
+## Transparent and tunable: "it's easy to understand what code will do when it runs"
+
 ## Consistent: "Rust is coherently designed"
 
-Async Rust should be a small delta atop Sync Rust. People who are familiar with sync Rust should be able to leverage what they know to make adopting Async Rust straightforward. Porting a sync code base to async should be relatively smooth: just add async/await, adopt the async variants of the various libraries, and you're done.
+Rust has a lot of parts, but they fit nicely together. As you learn more about how each feature of Rust works, you 
 
 ## Productive: "great crates for every need, just mix and match"
-
-## Transparent and tunable: "it's easy to understand what code will do when it runs"
 
 ## Control: "I can do all the weird things"
 
