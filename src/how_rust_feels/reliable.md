@@ -24,5 +24,5 @@ Cargo's dependency system is geared towards reproducible builds. Once an applica
 
 ### Explicit error handling with `?`
 
-Rust eschews exceptions in their traditional form, instead 
+Rust eschews exceptions in their traditional form, instead preferring to leverage `Result` types. The `?` operator allows 
 
