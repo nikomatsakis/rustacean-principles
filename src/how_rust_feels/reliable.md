@@ -18,6 +18,10 @@ In general, moving safety checks to runtime can be a useful way to strike a bala
 
 Rust code requires exhaustive matching, with explicit `_` cases used to handle additional items. This is different from many languages, such as Scala or Ocaml, which make it a runtime panic to elide cases. This encorages programmers to consider all the cases, or to be explicit when they consider a case impossible, or when they are choosing not to handle a case for the time being.
 
+### Cargo's dependency system
+
+Cargo's dependency system is geared towards reproducible builds. Once an application builds, the `Cargo.lock` file ensures that you don't get surprised by new versions of dependencies that you didn't request.
+
 ### Explicit error handling with `?`
 
 Rust eschews exceptions in their traditional form, instead 
