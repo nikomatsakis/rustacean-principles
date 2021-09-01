@@ -2,7 +2,9 @@
 
 - [What is this?](./what_is_this.md)
 - [How Rust ought to feel](./how_rust_feels.md)
-    - [Rust design mechanisms](./how_rust_feels/mechanisms.md)
+    - [⚙️ Reliable](./how_rust_feels/reliable.md)
+    - [🐎 Performant](./how_rust_feels/performant.md)
+    - [💪🏽 Empowering](./how_rust_feels/empowering.md)
 - [How to Rustacean](./how_to_rustacean.md)
     - [💖 Be excellent to each other](./how_to_rustacean/be_excellent.md)
     - [✨ Bring joy to the user](./how_to_rustacean/bring_joy.md)
