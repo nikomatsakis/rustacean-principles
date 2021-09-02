@@ -10,17 +10,17 @@ This section identifies the way that Rust ought to feel, when everything is goin
 
 > In Rust, the fastest code is often the most high-level: convenient features like closures, iterators, or async-await map down to code that is at once efficient and which uses minimal memory.
 
-## [💪🏽 Empowering](./how_rust_feels/empowering.md): "just a few lines of code can do a lot of work"
+## [🧩 Productive](./how_rust_feels/productive.md): "just a few lines of code can do a lot of work"
 
-> Rust offers a wide selection of libraries and abstractions that can be quickly combined to create complex applications. 
+> Rust and its ecosystem offer a wide array of powerful building blocks that can be combined and recombined. The result is that standing up quality code can be done in record time.
 
-## [🔧 Transparent and tunable](./how_rust_feels/transparent.md): "able to predict low-level details and control them"
+## [🔧 Transparent](./how_rust_feels/transparent.md): "able to predict low-level details and control them"
 
 > The translation from Rust to underlying machine code is predictable. If needed, you have options to control the low-level details of how your application works.
 
-## [💎 Polished](./how_rust_feels/polished.md): "Rust gets the big *and* the small things right"
+## [🥰 Accessible](./how_rust_feels/accessible.md): "build the system you want to build, whoever you are"
 
-> Rust is built with an attention to detail. Whether it's the error messages, the tooling, or the details of the type system or APIs, we try to anticipate and meet our users' needs, along with things they didn't know they wanted.
+> Rust is meant to be used in practice. We pay a lot of attention to the details of things like error messages and our tooling workflows. Because being accessible ultimately requires more than technology, we work hard to have a community that is welcome and supportive to everyone -- not just people who already know what they are doing.
 
 ## [🤸 Versatile](./how_rust_feels/versatile.md): "whatever it is I want to do, I can use Rust to do it"
 
