@@ -8,7 +8,7 @@ This section identifies the way that Rust ought to feel, when everything is goin
 
 ## [🐎 Performant](./how_rust_feels/performant.md): "idiomatic code runs efficiently"
 
-> In Rust, the fastest code is often the most high-level: convenient features like closures, iterators, or async-await map down to code that is at once efficient and which uses minimal memory. Rust also gives you the ability to control low-level details, which means that you can tune performance when needed.
+> In Rust, the fastest code is often the most high-level: convenient features like closures, iterators, or async-await map down to code that is at once efficient and which uses minimal memory.
 
 ## [💪🏽 Empowering](./how_rust_feels/empowering.md): "just a few lines of code can do a lot of work"
 
@@ -20,4 +20,4 @@ This section identifies the way that Rust ought to feel, when everything is goin
 
 ## [🤸 Versatile](./how_rust_feels/versatile.md): "whatever it is I want to do, I can use Rust to do it"
 
-> Rust can be used to build everything from simple scripts to web servers to WebAssembly programs to kernel extensions and embedded systems. Rust works consistently on all major  platforms -- and a lot of minor ones -- and exposes all system capabilities. Rust's lack of runtime and native support for the C ABI mean that you can use it to "plug in" to existing systems just like you would with a C library.
+> Rust can be used to build everything from simple scripts to web servers to WebAssembly programs to kernel extensions and embedded systems. Rust gives you the ability to control low-level details and exposes the capabilities of the underlying system.

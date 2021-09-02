@@ -7,6 +7,7 @@
     - [💪🏽 Empowering](./how_rust_feels/empowering.md)
     - [💎 Polished](./how_rust_feels/polished.md)
     - [🤸 Versatile](./how_rust_feels/versatile.md)
+    - [📜 Case studies](./how_rust_feels/case_study.md)
 - [How to Rustacean](./how_to_rustacean.md)
     - [💖 Be kind and considerate](./how_to_rustacean/be_kind.md)
     - [✨ Bring joy to the user](./how_to_rustacean/bring_joy.md)
