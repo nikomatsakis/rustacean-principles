@@ -24,5 +24,9 @@ Cargo's dependency system is geared towards reproducible builds. Once an applica
 
 ### Explicit error handling with `?`
 
-Rust eschews exceptions in their traditional form, instead preferring to leverage `Result` types. The `?` operator allows 
+Rust eschews exceptions in their traditional form, instead preferring to leverage `Result` types. The `?` operator is at once concise and visible, making it possible to see where errors occur without obscuring the "happy path" where the code is successful. The `?` operator also enables "error type adaptation", which is an example of [polish](./polish.md).
+
+**Too little:** Exceptions that invisibly propagate across stack frames. Experience has shown that programmers have a hard time ensuring that the state of their program is consistent after exceptions are thrown (this is why Rust panics are reserved for irrecoverable error conditions).
+
+**Too much:** Requiring a lot of ceremony on each error could make programs more reliable, but would work against [empowering](./empowering.md) or [polished](./polished.md). 
 

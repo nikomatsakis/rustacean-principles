@@ -4,7 +4,7 @@
 - [How Rust ought to feel](./how_rust_feels.md)
     - [⚙️ Reliable](./how_rust_feels/reliable.md)
     - [🐎 Performant](./how_rust_feels/performant.md)
-    - [💪🏽 Productive](./how_rust_feels/productive.md)
+    - [💪🏽 Empowering](./how_rust_feels/empowering.md)
     - [💎 Polished](./how_rust_feels/polished.md)
     - [🤸 Versatile](./how_rust_feels/versatile.md)
 - [How to Rustacean](./how_to_rustacean.md)
