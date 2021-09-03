@@ -1,1 +1,0 @@
-# Disjoint closure capture
