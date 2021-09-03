@@ -1,7 +1,7 @@
 # Summary
 
-- [What is this?](./what_is_this.md)
-- [What makes Rust empowering?](./how_rust_feels.md)
+- [Rust's goals](./goals.md)
+- [How Rust ought to feel](./how_rust_feels.md)
     - [⚙️ Reliable](./how_rust_feels/reliable.md)
     - [🐎 Performant](./how_rust_feels/performant.md)
     - [🧩 Productive](./how_rust_feels/productive.md)

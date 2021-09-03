@@ -18,9 +18,9 @@ This section identifies the way that Rust ought to feel, when everything is goin
 
 > The translation from Rust to underlying machine code is straightforward and predictable. If needed, you have options to control the low-level details of how your application works.
 
-## [🥰 Accessible](./how_rust_feels/accessible.md): "build the system you want to build, whoever you are"
+## [🥰 Supportive](./how_rust_feels/supportive.md): "build the system you want to build, whoever you are"
 
-> Rust is meant to be used in practice. We pay a lot of attention to the details of things like error messages and our tooling workflows. Because being accessible ultimately requires more than technology, we work hard to have a community that is welcome and supportive to everyone -- not just people who already know what they are doing.
+> We strive to make our tools polished and friendly, and we look for every opportunity to guide people towards success. Part of that is building a community that eagerly shares its knowledge in a welcoming and inclusive way.
 
 ## [🤸 Versatile](./how_rust_feels/versatile.md): "whatever it is I want to do, I can use Rust to do it"
 
