@@ -2,12 +2,12 @@
 
 ## What is Rust?
 
-* A language empowering everyone to build reliable and efficient software that is meant to last.
-* An open-source community focused on creating, designing, and maintaining that language and its ecosystem.
+* A language **empowering everyone to build reliable and efficient software**.
+* An **open-source community** focused on creating, designing, and maintaining that language and its ecosystem.
 
 ## What are the Rustacean Principles?
 
-The **Rustacean principles** are a set of principles which guide us in building Rust. They begin with a description of [how Rust ought to feel](./how_rust_feels.md) when you are using it. These goals guide us in designing features and help us decide how to 
+The **Rustacean principles** are a set of principles which guide us in building Rust. They begin with a description of [how Rust empowers its users](./how_rust_empowers.md). These goals guide us in designing features and help us decide how to 
 
 * [How Rust ought to feel](./how_rust_feels.md) covers the underlying design principles of Rust.
 * [How to Rustacean](./how_to_rustacean.md) describes the way that Rust team members are expected to act. You can think of it like a companion to the [Code of Conduct][CoC]: whereas the [CoC] describes the bare minimum expected of any Rust participant, the [How to Rustacean] section describes what is takes to become a member of a Rust team.

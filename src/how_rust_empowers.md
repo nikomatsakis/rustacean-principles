@@ -1,6 +1,8 @@
 # How Rust ought to feel
 
-This section identifies the way that Rust ought to feel, when everything is going right. These are the goals by which we evaluate new features.
+Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and efficient software". But how do we do that? This section identifies various specific goals for what it feels like when Rust is empowering.
+
+**Note that these goals are often in tension.** We always try to be be helpful or neutral on all of these goals; in some cases, though, we may be forced to decide between slightly penalizing one goal or another. In that case, we tend to support those goals that come earlier in the list over those that come later.
 
 ## [⚙️ Reliable](./how_rust_feels/reliable.md): "if it compiles, it works"
 
@@ -14,13 +16,13 @@ This section identifies the way that Rust ought to feel, when everything is goin
 
 > Rust and its ecosystem offer a wide array of powerful building blocks that can be combined and recombined. The result is that standing up quality code can be done in record time.
 
-## [🔧 Transparent](./how_rust_feels/transparent.md): "able to predict low-level details and control them"
-
-> The translation from Rust to underlying machine code is straightforward and predictable. If needed, you have options to control the low-level details of how your application works.
-
 ## [🥰 Supportive](./how_rust_feels/supportive.md): "build the system you want to build, whoever you are"
 
 > We strive to make our tools polished and friendly, and we look for every opportunity to guide people towards success. Part of that is building a community that eagerly shares its knowledge in a welcoming and inclusive way.
+
+## [🔧 Transparent](./how_rust_feels/transparent.md): "able to predict low-level details and control them"
+
+> The translation from Rust to underlying machine code is straightforward and predictable. If needed, you have options to control the low-level details of how your application works.
 
 ## [🤸 Versatile](./how_rust_feels/versatile.md): "whatever it is I want to do, I can use Rust to do it"
 
