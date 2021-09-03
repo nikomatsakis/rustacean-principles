@@ -4,6 +4,15 @@
 
 ## Examples
 
+### Cargo and crates.io
+
+
+
+
 ### Stability without stagnation and editions
 
 One of Rust's [core deliverables](https://blog.rust-lang.org/2014/10/30/Stability.html) 
+
+### Portability
+
+Rust code aims to be portable across all mainstream architectures by default.
