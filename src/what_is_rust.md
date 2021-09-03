@@ -7,11 +7,11 @@
 
 ## What are the Rustacean Principles?
 
-The **Rustacean principles** are a set of principles which guide us in building Rust. They begin with a description of [how Rust empowers its users](./how_rust_empowers.md). These goals guide us in designing features and help us decide how to 
+The **Rustacean principles** are a set of principles which guide us in building Rust. They begin with a description of [how Rust empowers its users](./how_rust_empowers.md). This section describes the various goals that we shoot for when designing elements of Rust.
 
-* [How Rust ought to feel](./how_rust_feels.md) covers the underlying design principles of Rust.
-* [How to Rustacean](./how_to_rustacean.md) describes the way that Rust team members are expected to act. You can think of it like a companion to the [Code of Conduct][CoC]: whereas the [CoC] describes the bare minimum expected of any Rust participant, the [How to Rustacean] section describes what is takes to become a member of a Rust team.
-* [Case studies](./case_studies.md) walks through various examples of things in Rust and shows how they reflect a balance amongst the design principles.
+Rust is developed and maintained by the members of its [various teams](https://www.rust-lang.org/governance). The next section of this site, [How to Rustacean](./how_to_rustacean.md), is a guide for the ways that members of those teams are expected to act. You can think of it like a companion to the [Code of Conduct][CoC]: whereas the [CoC] describes the bare minimum expected of any Rust participant, the [How to Rustacean] section describes what is means to excel.
+
+Finally, the [case studies](./case_studies.md) section applies both the previous sections to various examples from Rust's history, and shows how the principles can help guide us.
 
 ## Why develop these principles?
 

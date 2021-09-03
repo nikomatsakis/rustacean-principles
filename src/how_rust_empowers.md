@@ -1,8 +1,8 @@
-# How Rust ought to feel
+# Rust empowers by being...
 
-Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and efficient software". But how do we do that? This section identifies various specific goals for what it feels like when Rust is empowering.
+Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and efficient software". But how do we do that? This section identifies the various things that Rust tries to be in order to empower its users.
 
-**Note that these goals are often in tension.** We always try to be be helpful or neutral on all of these goals; in some cases, though, we may be forced to decide between slightly penalizing one goal or another. In that case, we tend to support those goals that come earlier in the list over those that come later.
+**Note that these goals are often in tension.** For any given design, we always want to achieve (or at least be neutral) all of these feelings. In some cases, though, we may be forced to decide between slightly penalizing one goal or another. In that case, we tend to support those goals that come earlier in the list over those that come later (but every case is different). See the [case studies](./case_studies.md) for examples.
 
 ## [⚙️ Reliable](./how_rust_feels/reliable.md): "if it compiles, it works"
 

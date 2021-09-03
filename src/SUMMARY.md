@@ -17,7 +17,7 @@
     - [✅ Follow through](./how_to_rustacean/follow_through.md)
     - [🤝 Pay it forward](./how_to_rustacean/pay_it_forward.md)
     - [🎁 Trust and delegate](./how_to_rustacean/trust_and_delegate.md)
-- [📜 Mechanisms](./case_studies.md)
+- [📜 Case studies](./case_studies.md)
     - [Type safety](./case_studies/type_safety.md)
     - [Portability](./case_studies/disjoint_closures.md)
     - [](./case_studies/disjoint_closures.md)
