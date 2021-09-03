@@ -12,18 +12,18 @@ Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and 
 
 > In Rust, the fastest code is often the most high-level: convenient features like closures, iterators, or async-await map down to code that is at once efficient and which uses minimal memory.
 
-## [🧩 Productive](./how_rust_feels/productive.md): "just a few lines of code can do a lot of work"
+## [🧩 Productive](./how_rust_feels/productive.md): "a little effort does a lot of work"
 
-> Rust and its ecosystem offer a wide array of powerful building blocks that can be combined and recombined. The result is that standing up quality code can be done in record time.
+> Rust and its ecosystem offer a wide array of powerful building blocks that can be combined and recombined. The result is that standing up a quality system can be done in record time.
 
-## [🥰 Supportive](./how_rust_feels/supportive.md): "build the system you want to build, whoever you are"
+## [🥰 Supportive](./how_rust_feels/supportive.md): "the language, tools, and community are here to help"
 
 > We strive to make our tools polished and friendly, and we look for every opportunity to guide people towards success. Part of that is building a community that eagerly shares its knowledge in a welcoming and inclusive way.
 
-## [🔧 Transparent](./how_rust_feels/transparent.md): "able to predict low-level details and control them"
+## [🔧 Transparent](./how_rust_feels/transparent.md): "predict and control low-level details"
 
 > The translation from Rust to underlying machine code is straightforward and predictable. If needed, you have options to control the low-level details of how your application works.
 
-## [🤸 Versatile](./how_rust_feels/versatile.md): "whatever it is I want to do, I can use Rust to do it"
+## [🤸 Versatile](./how_rust_feels/versatile.md): "you can do anything with Rust"
 
 > Rust scales well both up and down: it is well-suited to building everything from simple scripts to web servers to WebAssembly programs to kernel extensions and embedded systems. It is usable on both common and esoteric platforms.
