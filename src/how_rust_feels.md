@@ -16,7 +16,7 @@ This section identifies the way that Rust ought to feel, when everything is goin
 
 ## [🔧 Transparent](./how_rust_feels/transparent.md): "able to predict low-level details and control them"
 
-> The translation from Rust to underlying machine code is predictable. If needed, you have options to control the low-level details of how your application works.
+> The translation from Rust to underlying machine code is straightforward and predictable. If needed, you have options to control the low-level details of how your application works.
 
 ## [🥰 Accessible](./how_rust_feels/accessible.md): "build the system you want to build, whoever you are"
 
@@ -24,4 +24,4 @@ This section identifies the way that Rust ought to feel, when everything is goin
 
 ## [🤸 Versatile](./how_rust_feels/versatile.md): "whatever it is I want to do, I can use Rust to do it"
 
-> Rust scales well both up and down: it is well-suited to building everything from simple scripts to web servers to WebAssembly programs to kernel extensions and embedded systems. 
+> Rust scales well both up and down: it is well-suited to building everything from simple scripts to web servers to WebAssembly programs to kernel extensions and embedded systems. It is usable on both common and esoteric platforms.
