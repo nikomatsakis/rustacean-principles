@@ -27,4 +27,4 @@ Rust programmers never have to worry about notorious, hard-to-diagnose, harder-t
 
 > Rust doesn't hide error conditions and encourages listing all possibilities explicitly (or acknowledging that something is elided).
 
-Rust uses a number of mechanisms to encourage code authors to list all possibilities. This thoroughness frequently helps identify bugs because it ca highlight things that the programmer has forgotten about. However, it comes at a price in [productivity], since it can force the programmer to deal with details that they haven't figure out yet.
+Rust uses a number of mechanisms to encourage code authors to list all possibilities. This thoroughness frequently helps identify bugs because it can highlight things that the programmer has forgotten about. However, it comes at a price in [productivity], since it can force the programmer to deal with details that they haven't figure out yet. As an example, consider exhaustive matches: they are frequently very useful, but when a new enum variant is added, all matches must be edited to account for it (or else they must include a `_` case).

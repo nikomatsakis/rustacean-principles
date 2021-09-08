@@ -7,7 +7,7 @@
         - [Consider all cases](./how_rust_empowers/reliable/consider_all_cases.md)
     - [🐎 Performant](./how_rust_empowers/performant.md)
         - [Zero-cost abstractions](./how_rust_empowers/performant/zca.md)
-        - [Specify only what's necessary](./how_rust_empowers/performant/specify_what_is_necessary.md)
+        - [Specify only what's necessary](./how_rust_empowers/performant/specify_only_what_is_necessary.md)
     - [🥰 Supportive](./how_rust_empowers/supportive.md)
         - [Polished developer experience](./how_rust_empowers/supportive/polished.md)
     - [🧩 Productive](./how_rust_empowers/productive.md)
