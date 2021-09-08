@@ -12,6 +12,7 @@ At the same time:
 
 * If you are going to raise an objection, you have to be willing to make your case. You can't raise concerns and block indefinitely.
 * It may well be that others *do* understand your point, but just don't agree about how important it is. Ultimately, you have to [trust] that others have the best interest of Rust at heart, too.
+* The hardest disagreements to resolve often have underlying disagreements in values or the priorities of those values. Resolving such disagreements in an ideal way often requires introspecting on your own values, and understanding and empathizing with the values of others.
 
 [trust]: ./trust_and_delegate.md
 
