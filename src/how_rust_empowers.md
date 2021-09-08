@@ -20,7 +20,7 @@ Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and 
 
 > We strive to make our tools polished and friendly, and we look for every opportunity to guide people towards success. Part of that is building a community that eagerly shares its knowledge in a welcoming and inclusive way.
 
-## [🔧 Transparent](./how_rust_empowers/transparent.md): "predict and control low-level details"
+## [🔧 Transparent](./how_rust_empowers/transparent.md): "you can predict and control low-level details"
 
 > The translation from Rust to underlying machine code is straightforward and predictable. If needed, you have options to control the low-level details of how your application works.
 

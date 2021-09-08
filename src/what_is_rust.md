@@ -2,6 +2,8 @@
 
 <img src="/image/dancing-ferris.gif" alt="Dancing Ferris" width="300"></img>
 
+A **DRAFT** set of principles guiding Rust development and its open source organization.
+
 ## What is Rust?
 
 * A language **empowering everyone to build reliable and efficient software**.
