@@ -22,10 +22,12 @@ No! They are still in draft form. We are still iterating on them and are interes
 | Mechanisms (e.g., [type safety])                       | Low: these have not seen a lot of iteration |
 | The qualities listed in [How to Rustacean]             | Medium: expect to tweak these               |
 | Examples in the qualities listed in [How to Rustacean] | Low: most of these aren't even written yet! |
+| [Case studies]                                         | Low: these have not seen a lot of iteration |
 
 [How Rust empowers]: ./how_rust_empowers.md
 [How to Rustacean]: ./how_to_rustacean.md
 [type safety]: ./how_rust_empowers/reliable/type_safety.md
+[case studies]: ./case_studies.md
 
 ## Why develop these principles?
 
