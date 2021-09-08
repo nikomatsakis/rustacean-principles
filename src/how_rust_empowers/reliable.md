@@ -5,10 +5,13 @@
 [productive]: ./productive.md
 [productivity]: ./productive.md
 [supportive]: ./supportive.md
+[versatility]: ./versatile.md
 
 ## In tension with
 
 Making Rust reliable is most often at odds with making Rust feel [productive] and [supportive]. Reliability is often achieved by "cross checking", where various parts of the system check one another to ensure overall consistency. Cross checks can make it harder to make changes, since the various parts of the system must be brought in sync with one another.
+
+Reliability can also be at odds with [versatility]. Our ability to make something reliable will always be limited. If we restrict people to only building things that whose correctness can be verified, we will limit what they can build.
 
 ## Mechanisms
 

@@ -2,7 +2,10 @@
 
 ## Who developed these principles? Are they "official"?
 
-No -- right now, this is a work-in-progress being developed by nikomatsakis in collaboration with lots of people within the Rust community. When it takes settled shape, it may indeed move to the Rust org as something more official.
+No -- right now, this is a work-in-progress being developed by [nikomatsakis], [joshtriplett], and others within the Rust community. When it takes settled shape, it may indeed move to the Rust org as something more official.
+
+[nikomatsakis]: https://github.com/nikomatsakis
+[joshtriplett]: https://github.com/joshtriplett
 
 ## Why develop these principles?
 

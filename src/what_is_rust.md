@@ -17,3 +17,11 @@ Finally, the [case studies](./case_studies.md) section applies both the previous
 
 [CoC]: https://www.rust-lang.org/policies/code-of-conduct
 [How to Rustacean]: ./how_to_rustacean.md
+
+## How can the principles be used?
+
+For the principles to be a success, they need to be more than words on a website. The hope is that they will become something that we actively reference all the time as we go about our work in the Rust org.
+
+As an example, when working through a design tradeoff, it may be helpful to see whether you can phrase the underlying values in terms of named values like [productivity] or [transparency]. The ordering and prioritization may help in resolving the tradeoff. We can also rate designs along these axes, which may help spur useful ideas for how designs can be improved.
+
+When it comes to the [How to Rustacean] section, it's a great guide that we can all use for ourselves. It's also a good idea to look for opportunities to point out when people are doing a good job -- e.g., "great job paying it forward". The principles can also be useful when thinking about prospective members of a team. Can you come up with concrete examples where they exemplified these principles? What about places where they fell short? The principles can be a useful tool for communicating this to people without it feeling like personal criticism.
