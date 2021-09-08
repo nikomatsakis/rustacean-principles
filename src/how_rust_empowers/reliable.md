@@ -18,4 +18,8 @@ Reliability can also be at odds with [versatility]. Our ability to make somethin
 What are some of the ways that we make Rust feel **reliable**?
 
 * [Type safety](./reliable/type_safety.md): Safe Rust code is guaranteed to avoid undefined behavior.
-* [Consider all cases](./reliable/consider_all_cases.md): Rust encourages authors to consider all the possible states that their program might reach.
+    * *Why it makes Rust code feel reliable:* Segfaults and data races are the hardest kind of bug to diagnose and fix.
+    * *Trades off:* Type safety makes the system more complex, which works against being [supportive]; it also requires the entire system to be brought into a consistent state, which can work against [productivity].
+* [Consider all cases](./reliable/consider_all_cases.md): Rust doesn't hide error conditions and encourages listing all possibilities explicitly (or acknowledging that something is elided).
+    * *Why it makes Rust code feel reliable:* Listing all cases often highlights things that the programmer has forgotten about.
+    * *Trades off:* As with type safety, considering all cases means that the system must be brought into a consistent state, which can work against [productivity].
