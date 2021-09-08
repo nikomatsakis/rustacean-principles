@@ -21,7 +21,7 @@ What are some of the ways that we make Rust feel **reliable**?
 
 > Safe Rust code is guaranteed to avoid undefined behavior.
 
-Rust programmers never have to worry about notorious, hard-to-diagnose, harder-to-fix bugs like segfaults and data races. Rust's exposure to security vulnerabilities is much reduced as a result. However, static safety comes at the cost of increased overall complex (works against [supportive]). Figuring out the correct type annotations and other details can be difficult, working against [productivity].
+Rust programmers never have to worry about notorious, hard-to-diagnose, harder-to-fix bugs like segfaults and data races. Rust's exposure to security vulnerabilities is much reduced as a result. However, static safety comes at the cost of increased overall complexity (works against [supportive]). Figuring out the correct type annotations and other details can be difficult, working against [productivity].
 
 ### [Consider all cases](./reliable/consider_all_cases.md)
 
