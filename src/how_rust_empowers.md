@@ -12,13 +12,13 @@ Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and 
 
 > In Rust, the fastest code is often the most high-level: convenient features like closures, iterators, or async-await map down to code that is at once efficient and which uses minimal memory.
 
-## [🧩 Productive](./how_rust_empowers/productive.md): "a little effort does a lot of work"
-
-> Rust and its ecosystem offer a wide array of powerful building blocks that can be combined and recombined. The result is that standing up a quality system can be done in record time.
-
 ## [🥰 Supportive](./how_rust_empowers/supportive.md): "the language, tools, and community are here to help"
 
 > We strive to make our tools polished and friendly, and we look for every opportunity to guide people towards success. Part of that is building a community that eagerly shares its knowledge in a welcoming and inclusive way.
+
+## [🧩 Productive](./how_rust_empowers/productive.md): "a little effort does a lot of work"
+
+> Rust and its ecosystem offer a wide array of powerful building blocks that can be combined and recombined. The result is that standing up a quality system can be done in record time.
 
 ## [🔧 Transparent](./how_rust_empowers/transparent.md): "you can predict and control low-level details"
 
