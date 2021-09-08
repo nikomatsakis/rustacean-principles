@@ -1,5 +1,7 @@
 # Consider all cases
 
+> Rust doesn't hide error conditions and encourages listing all possibilities explicitly (or acknowledging that something is elided).
+
 Rust generally aims to make sure that you 'acknowledge' or consider all cases. You can see this in `match` statements, which require exhaustive matching (many other languages permit you to leave off match arms that you believe cannot occur); when matching, we also require that users list all fields in a struct, or acknowledge (with `..`) that they have not done so. Forcing users to consider all cases helps make Rust feel reliable, but it can come at the cost of feeling [productive]. This is why we frequently pay careful attention to the details of 
 
 A good case study for the tradeoffs involved is error handling. The traditional approach to error handling for a long time was exceptions. Exceptions are great for feeling [productive], as they allow errors to quietly pass through any amount of code. However, the result is a proliferation of hidden control-flow paths that are very hard to reason about. In practice, recovering from exceptions is fraught with error, and hence they work against the feeling of reliability. The problem is that typical mechanisms such as returning an error code are also not reliable; it's too easy to forget to check for an error.

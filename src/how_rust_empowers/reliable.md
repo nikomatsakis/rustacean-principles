@@ -17,9 +17,14 @@ Reliability can also be at odds with [versatility]. Our ability to make somethin
 
 What are some of the ways that we make Rust feel **reliable**?
 
-* [Type safety](./reliable/type_safety.md): Safe Rust code is guaranteed to avoid undefined behavior.
-    * *Why it makes Rust code feel reliable:* Segfaults and data races are the hardest kind of bug to diagnose and fix.
-    * *Trades off:* Type safety makes the system more complex, which works against being [supportive]; it also requires the entire system to be brought into a consistent state, which can work against [productivity].
-* [Consider all cases](./reliable/consider_all_cases.md): Rust doesn't hide error conditions and encourages listing all possibilities explicitly (or acknowledging that something is elided).
-    * *Why it makes Rust code feel reliable:* Listing all cases often highlights things that the programmer has forgotten about.
-    * *Trades off:* As with type safety, considering all cases means that the system must be brought into a consistent state, which can work against [productivity].
+### [Type safety](./reliable/type_safety.md)
+
+> Safe Rust code is guaranteed to avoid undefined behavior.
+
+Rust programmers never have to worry about notorious, hard-to-diagnose, harder-to-fix bugs like segfaults and data races. Rust's exposure to security vulnerabilities is much reduced as a result. However, static safety comes at the cost of increased overall complex (works against [supportive]). Figuring out the correct type annotations and other details can be difficult, working against [productivity].
+
+### [Consider all cases](./reliable/consider_all_cases.md)
+
+> Rust doesn't hide error conditions and encourages listing all possibilities explicitly (or acknowledging that something is elided).
+
+Rust uses a number of mechanisms to encourage code authors to list all possibilities. This thoroughness frequently helps identify bugs because it ca highlight things that the programmer has forgotten about. However, it comes at a price in [productivity], since it can force the programmer to deal with details that they haven't figure out yet.

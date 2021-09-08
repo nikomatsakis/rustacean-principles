@@ -1,5 +1,7 @@
 # Type safety (but with an unsafe escape hatch)
 
+> Safe Rust code is guaranteed to avoid undefined behavior.
+
 Type safety is a key element to reliability. We ensure that safe Rust code is free of "undefined behavior", which is the term that compiler authors use to refer to things like segfaults, data races, and out-of-bounds memory accesses.
 
 Type safety is not a suggestion: we don't accept **almost safe** APIs, which are safe so long as you don't do "unreasonable" things. For example, we would not accept a safe API that avoids undefined behavior so long as no cycles exist between ref-counted objects. Reasonable people do "unreasonable" things in code all the time, either because they don't yet know what is reasonable or not, or because the complexity of the system gets away from them. The role of the compiler is to manage that for you.
