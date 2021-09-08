@@ -13,7 +13,19 @@ No -- right now, this is a work-in-progress being developed by [nikomatsakis], [
 
 ## Are these principles complete?
 
-No! They are still in draft form. We are still iterating on them and are interested in hearing from people who are active in the Rust community about whether they reflect what you love about Rust (and, if not, what might be changed). Another great idea is to try and use these principles to [guide design discussions and questions of team membership](https://rustacean-principles.netlify.app/#how-can-the-principles-be-used) to evaluate how useful they are.
+No! They are still in draft form. We are still iterating on them and are interested in hearing from people who are active in the Rust community about whether they reflect what you love about Rust (and, if not, what might be changed). That said, some aspects have gone through more iteration than others. Here is a list of some aspects of site and how well understood they are:
+
+| Aspect                                                 | Confidence                                  |
+| ------------------------------------------------------ | ------------------------------------------- |
+| The qualities listed in [How Rust empowers]            | High: we've iterated quite a bit on these   |
+| Ordering of the qualities                              | Medium: might still change this a bit       |
+| Mechanisms (e.g., [type safety])                       | Low: these have not seen a lot of iteration |
+| The qualities listed in [How to Rustacean]             | Medium: expect to tweak these               |
+| Examples in the qualities listed in [How to Rustacean] | Low: most of these aren't even written yet! |
+
+[How Rust empowers]: ./how_rust_empowers.md
+[How to Rustacean]: ./how_to_rustacean.md
+[type safety]: ./how_rust_empowers/reliable/type_safety.md
 
 ## Why develop these principles?
 
