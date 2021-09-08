@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Rustacean Principles"
+
+
+[output.html.fold]
+enable = true
+level = 0
