@@ -21,7 +21,6 @@
     - [💖 Be kind and considerate](./how_to_rustacean/be_kind.md)
     - [✨ Bring joy to the user](./how_to_rustacean/bring_joy.md)
         - [Improving Rust's compiler messages](./how_to_rustacean/bring_joy/improving_compiler_error.md)
-        - [Responding on an issue](./how_to_rustacean/bring_joy/responding.md)
     - [👋 Show up](./how_to_rustacean/show_up.md)
         - [Raising an objection about a design](./how_to_rustacean/show_up/raising_an_objection.md)
     - [🔭 Recognize others' knowledge](./how_to_rustacean/recognize_others.md)
