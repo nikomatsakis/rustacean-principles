@@ -4,7 +4,7 @@
 
 Pushing Rust forward is already a tough task, being kind and avoiding conflicts prevents us from making it even harder.
 
-Rust is being built and used by different people from around the globe, everyone got a personal opinion when it comes to what is the best for the language, so disagreements are inevitable.
+Rust is being built and used by different people from around the globe and everyone has their own opinion on what is the best for the language, so disagreements are inevitable.
 
 When you disagree with someone, remember to:
 
