@@ -5,7 +5,18 @@ multilingual = false
 src = "src"
 title = "Rustacean Principles"
 
-
 [output.html.fold]
 enable = true
 level = 1
+
+[output.html.redirect]
+"/how_rust_empowers/reliable/consider_all_cases.html" = "/how_rust_empowers/consider_all_cases.html"
+"/how_rust_empowers/productive/ecosystem.html" = "/how_rust_empowers/ecosystem.html"
+"/how_rust_empowers/productive/expose_capabilities.html" = "/how_rust_empowers/expose_capabilities.html"
+"/how_rust_empowers/transparent/no_global_costs.html" = "/how_rust_empowers/no_global_costs.html"
+"/how_rust_empowers/supportive/polished.html" = "/how_rust_empowers/polished.html"
+"/how_rust_empowers/performant/specify_only_what_is_necessary.html" = "/how_rust_empowers/specify_only_what_is_necessary.html"
+"/how_rust_empowers/productive/stability.html" = "/how_rust_empowers/stability.html"
+"/how_rust_empowers/reliable/type_safety.html" = "/how_rust_empowers/type_safety.html"
+"/how_rust_empowers/performant/zca.html" = "/how_rust_empowers/zca.html"
+        
