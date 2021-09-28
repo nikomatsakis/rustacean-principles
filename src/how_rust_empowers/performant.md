@@ -13,15 +13,11 @@ Making Rust feel performant can be in tension with Rust feeling [supportive], an
 
 ## Examples
 
-### Iterators
-
-Rust iterators are a good example of something which meets our goal of being *performant*. Code that uses iterators not only feels higher-level, it often compiles down to loops which are more efficient than if you wrote the loops with explicit iterators. This is because iterators are able to skip bounds checks on vectors or take other shortcuts.
-
-## Mechanisms
-
 What are some of the ways that we make Rust feel **performant**?
 
 ### [Zero-cost abstractions](./performant/zca.md)
+
+Rust iterators are a good example of something which meets our goal of being *performant*. Code that uses iterators not only feels higher-level, it often compiles down to loops which are more efficient than if you wrote the loops with explicit iterators. This is because iterators are able to skip bounds checks on vectors or take other shortcuts.
 
 > "What you don't use, you don't pay for. And further: What you do use, you couldn't hand code any better." -- Bjarne Stroustroup
 

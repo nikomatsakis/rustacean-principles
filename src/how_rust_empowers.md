@@ -1,8 +1,10 @@
 # Rust empowers by being...
 
-Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and efficient software". But how do we do that? This section identifies the various things that Rust tries to be in order to empower its users. If you click on a particular entry, you will find more notes, along with a list of mechanisms that we use (for example, reliability is enhanced by type safety).
+Rust's [overall goal](./goals.md) is to "empower everyone to build reliable and efficient software". This section tries to break down *empowerment* into its constituent parts: what are the specific qualities that we are shooting for? The idea is that the combination of these qualities results in empowerment.
 
 **Note that these goals are often in tension.** For any given design, we always want to achieve (or at least be neutral) all of these feelings. In some cases, though, we may be forced to decide between slightly penalizing one goal or another. In that case, we tend to support those goals that come earlier in the list over those that come later (but every case is different). See the [case studies](./case_studies.md) for examples.
+
+Click on the qualities to see more details, including examples of specific things that we do in support of these goals.
 
 ## [⚙️ Reliable](./how_rust_empowers/reliable.md): "if it compiles, it works"
 
