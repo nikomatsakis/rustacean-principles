@@ -23,7 +23,7 @@
         - [Improving Rust's compiler messages](./how_to_rustacean/bring_joy/improving_compiler_error.md)
     - [👋 Show up](./how_to_rustacean/show_up.md)
         - [Raising an objection about a design](./how_to_rustacean/show_up/raising_an_objection.md)
-    - [🔭 Recognize others' knowledge](./how_to_rustacean/recognize_others.md)
+    - [🔭 Recognize the knowledge of others](./how_to_rustacean/recognize_others.md)
     - [🔁 Start somewhere](./how_to_rustacean/start_somewhere.md)
     - [✅ Follow through](./how_to_rustacean/follow_through.md)
     - [🤝 Pay it forward](./how_to_rustacean/pay_it_forward.md)

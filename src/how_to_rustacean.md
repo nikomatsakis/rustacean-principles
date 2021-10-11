@@ -12,7 +12,7 @@
 
 > Bring your expertise and be willing to argue for what you think is right.
 
-## [🔭 Recognize others' knowledge](./how_to_rustacean/recognize_others.md)
+## [🔭 Recognize the knowledge of others](./how_to_rustacean/recognize_others.md)
 
 > Nobody has a monopoly on good ideas. We are always looking for opportunities to improve our designs and seeking input from those with experience and expertise.
 
