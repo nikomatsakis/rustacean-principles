@@ -1,6 +1,6 @@
 # ⚙️ Reliable: "If it compiles, it works"
 
-> One of the great things about Rust is the feeling of "it if compiles, it works". This is what allows you to do a giant refactoring and find that the code runs on the first try. It is what lets you deploy code that uses parallelism or other fancy features without exhausting fuzz testing and worry about every possible corner case.
+> One of the great things about Rust is the feeling of "if it compiles, it works". This is what allows you to do a giant refactoring and find that the code runs on the first try. It is what lets you deploy code that uses parallelism or other fancy features without exhausting fuzz testing and worry about every possible corner case.
 
 [productive]: ./productive.md
 [productivity]: ./productive.md
