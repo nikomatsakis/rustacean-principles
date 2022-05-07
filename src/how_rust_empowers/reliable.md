@@ -13,7 +13,7 @@ Making Rust reliable is most often at odds with making Rust feel [productive] an
 
 Reliability can also be at odds with [versatility]. Our ability to make something reliable will always be limited. If we restrict people to only building things that whose correctness can be verified, we will limit what they can build.
 
-## Mechanisms
+## Examples
 
 What are some of the ways that we make Rust feel **reliable**?
 

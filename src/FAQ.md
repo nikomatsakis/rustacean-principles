@@ -2,36 +2,43 @@
 
 ## What are these principles?
 
-The Rustacean principles are a set of principles which guide us in building Rust and shaping the Rust open source organization. [Read more here.](./what_is_rust.md#what-are-the-rustacean-principles)
+The Rust Design Principles are a proposed set of principles which guide Rust's design.
 
 ## Who developed these principles? Are they "official"?
 
-No -- right now, this is a work-in-progress being developed by [nikomatsakis], [joshtriplett], and others within the Rust community. When it takes settled shape, it may indeed move to the Rust org as something more official.
+Not yet. These principles are a work-in-progress started by [nikomatsakis] and  [joshtriplett], but incorporating feedback from many others within the Rust community.
+If and when we feel the principles have reached a "settled point", we expect to create an RFC.
 
 [nikomatsakis]: https://github.com/nikomatsakis
 [joshtriplett]: https://github.com/joshtriplett
 
-## Are these principles complete?
+## Why is "easy to use" not one of the principles?
 
-No! They are still in draft form. We are still iterating on them and are interested in hearing from people who are active in the Rust community about whether they reflect what you love about Rust (and, if not, what might be changed). That said, some aspects have gone through more iteration than others. Here is a list of some aspects of site and how well understood they are:
+There are several reasons that "Easy" is not on the list of principles. The most obvious is that Rust is not, in fact, *easy*: because writing reliable, efficient, and easy to maintain programs is not easy. It requires an attention to detail.
 
-| Aspect                                                 | Confidence                                  |
-| ------------------------------------------------------ | ------------------------------------------- |
-| The qualities listed in [How Rust empowers]            | High: we've iterated quite a bit on these   |
-| Ordering of the qualities                              | Medium: might still change this a bit       |
-| Mechanisms (e.g., [type safety])                       | Low: these have not seen a lot of iteration |
-| The qualities listed in [How to Rustacean]             | Medium: expect to tweak these               |
-| Examples in the qualities listed in [How to Rustacean] | Low: most of these aren't even written yet! |
-| [Case studies]                                         | Low: these have not seen a lot of iteration |
+Rust does, however, strive to be [supportive] -- we help you to learn and get started. We also strive to be [productive].
 
-[How Rust empowers]: ./how_rust_empowers.md
-[How to Rustacean]: ./how_to_rustacean.md
-[type safety]: ./how_rust_empowers/reliable/type_safety.md
-[case studies]: ./case_studies.md
+[supportive]: ./how_rust_empowers/supportive.md
+[productive]: ./how_rust_empowers/productive.md
+[reliable]: ./how_rust_empowers/reliable.md
+[performant]: ./how_rust_empowers/performant.md
+
+This doesn't mean we don't care about ease-of-use: of course we do!
+
+ An inevitable consequence of prizing [reliability] and [performant] first and foremost. Nonetheless, we strive to 
+
+*Rust puts these skills within reach, if you invest some effort* is a much much much better message than “this will be hard and you will suffer and it will be good for you”    
+
+"we know there's a curve but we are constantly getting it as low as we can without compromising X"
+
+This is a tricky question to answer. On the one hand, Rust has a definite learning curve, and it always will. 
+
+We do our best to make Rust a language accessible to everyone, Rust has a definite learning curve. 
+Rust is meant to be a tool that is accessible to **everyone** -- 
 
 ## Why develop these principles?
 
-The goal of these principles is to help us to be more precise as we go about our work in the Rust org. The [Rust empowers by being...](./how_rust_empowers.md) section is primarily intended to help guide discussions about the effects of features on our users. The [How to Rustacean](./how_to_rustacean.md) section is meant to help us in describing the kinds of behaviors that we are looking for when we select Rust team members. This makes it hard for people to know what they ought to do, but it also makes it very hard for us to communicate where improvement is needed.
+The goal of these principles is to help guide design discussions. We often find ourselves returning to the same themes over and over again, and the principles can give us a more precise vocabulary to use. We can talk about whether a feature is *supportive* or *productive*, for example. The fact that they are ordered can also help us in resolving conflicts, since we can give "the edge" to principles earlier in the list. The [case studies] enumerates several examples of this in practice.
 
 ## How can these principles be used?
 
