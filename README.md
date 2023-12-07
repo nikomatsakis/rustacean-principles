@@ -1,5 +1,7 @@
 # Rustacean Principles
 
+> ![Deprecated](https://img.shields.io/badge/Status-deprecated-red) **The rustacean principles are deprecated!** Check out the [Rust design axioms](https://github.com/nikomatsakis/rust-design-axioms) instead! This site is here for historical reasons.
+
 This is an experimental repository working towards a set of principles for Rust. These principles are focused on the design of Rust as well as what kinds of skills people need to participate successfully in the Rust community. The goal is ultimately to let us *move faster* without losing coherence: clearly articulated principles allow us to enable and empower more people to act independently. They also both guide designs proactively and let us identify and talk about problems in designs and behavior with more precision.
 
 ## Frequently asked questions
